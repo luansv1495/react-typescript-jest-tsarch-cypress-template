@@ -11,7 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest && yarn run cypress",
+    "test": "jest --collectCoverage && yarn run cypress",
     "cypress": "cypress run",
     "eject": "react-scripts eject"
   },
